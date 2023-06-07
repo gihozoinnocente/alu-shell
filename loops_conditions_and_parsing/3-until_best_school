@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Looping from 0 up to 10 using until method
+
+count=0
+
+until [ $count -eq 10 ]; do
+    echo "Best School"
+    count=$((count + 1))
+done
