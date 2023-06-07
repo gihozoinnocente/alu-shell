@@ -1,37 +1,7 @@
 #!/usr/bin/env bash
 #Implementing fizzbuzz using do while loop
-
-
-count=1
-
-while [ $count -ne 101 ]
-
-do
-
-    if [ $((count % 15)) -eq 0 ]
-
-    then
-
-        echo "FizzBuzz"
-
-    elif [ $((count % 3)) -eq 0 ]
-
-    then
-
-        echo "Fizz"
-
-    elif [ $((count % 5)) -eq 0 ]
-
-    then
-
-        echo "Buzz"
-
-    else
-
-        echo $count
-
-    fi
-
-    ((count++))
-
+counter=0
+while [ $counter -lt 10 ]; do
+    echo "Best School"
+    counter=$((counter + 1))
 done
