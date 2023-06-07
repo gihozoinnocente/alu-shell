@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#Implementing fizzbuzz using while do loop
+#Implementing fizzbuzz using do while loop
 
 
 count=1
