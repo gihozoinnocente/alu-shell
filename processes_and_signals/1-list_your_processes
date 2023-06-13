@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #A script that generate user that are running
-top
+process_list=$(ps axo pid,ppid,user,%cpu,%mem,vsz,rss,tty,stat,start,time,command | tr '\n' ';')
+echo "$process_list"
