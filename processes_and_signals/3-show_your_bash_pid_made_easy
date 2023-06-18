@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Bash script that displays the PID, along with the process name, of processes whose name contain the word bash
+#Do not use ps
+
+pgrep -f bash | xargs -I {} echo "PID: {}, Process Name: $(cat /proc/{}/cmdline)"
