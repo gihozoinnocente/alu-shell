@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Bash script that displays To infinity and beyond indefinitely
 #In between each iteration of the loop, add a sleep 2
-while:
+while true;
 do
 	echo "Infinity and beyonde"
 	sleep 2
